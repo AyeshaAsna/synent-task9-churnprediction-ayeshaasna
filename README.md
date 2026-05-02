@@ -58,3 +58,23 @@ Step 1: Open terminal in task9 folder
 Step 2: Install dependencies:
 ```bash
 pip install -r requirements.txt
+
+Step 3: Train model:
+
+python model.py
+
+Step 4: Run EDA:
+
+python eda.py
+
+Step 5: Run app:
+
+streamlit run app.py
+
+Features
+User-friendly UI
+Real-time churn prediction
+Works locally in browser
+
+Deployment Note
+App runs locally using Streamlit
